@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($user && password_verify($password, $user[array_key_first($user)]['password'])) {
         // Redirect to dashboard (quiz creation page) after successful login
-        header("Location: create_quiz.php");
+        header("Location: quiz_quest.php");
         exit;
     } else {
         $errorMessage = "Invalid credentials";
