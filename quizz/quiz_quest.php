@@ -16,7 +16,7 @@ if (!isset($_SESSION['user'])) {
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, #fff, rgb(235, 122, 24)); /* Dégradé */
+            background: linear-gradient(to bottom, #fff, #660099); /* Dégradé */
             margin: 0;
             padding: 0;
             display: flex;
@@ -33,6 +33,8 @@ if (!isset($_SESSION['user'])) {
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             width: 100%;
             max-width: 500px;
+            
+            
         }
         h1 {
             color: #e96f6f;
